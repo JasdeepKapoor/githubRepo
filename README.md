@@ -1,8 +1,26 @@
-# React + Vite
+# GitHub Repo Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web application built using Vite that allows users to search for GitHub repositories based on their search query. The app leverages the GitHub API to fetch and display repository data.
 
-Currently, two official plugins are available:
+# Features
++ Search for GitHub repositories using keywords.
++ View detailed information about each repository.
++ Access repository details on GitHub with a single click.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Demo
+You can check out a live demo of this application [here](https://jasdeep-kapoor-github-repo.netlify.app/).
+
+# Getting Started
+To run this project locally, you need to have Node.js and npm (Node Package Manager) installed on your system.
+## Installation
++ Clone the repository to your local machine:
++ Change into the project directory:
++ Install project dependencies using npm:
+
+# API Rate Limit
+Please be aware that the GitHub API has rate limits for unauthenticated requests. If you experience issues with reaching these limits, it's recommended to use your GitHub Personal Access Token as instructed above.
+
+# Technologies Used
++ Vite - A fast web development build tool.
++ React.js - A progressive JavaScript framework.
++ GitHub REST API - Used to access GitHub repository data.

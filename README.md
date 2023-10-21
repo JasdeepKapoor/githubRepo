@@ -4,8 +4,7 @@ This is a simple web application built using Vite that allows users to search fo
 
 # Features
 + Search for GitHub repositories using keywords.
-+ View detailed information about each repository.
-+ Access repository details on GitHub with a single click.
++ Filter Github repositories based on multiple criterias.
 
 # Demo
 You can check out a live demo of this application [here](https://jasdeep-kapoor-github-repo.netlify.app/).

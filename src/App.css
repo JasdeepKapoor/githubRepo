@@ -1,0 +1,197 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 1rem;
+    height: 10vh;
+    background-color: #eaeaea;
+}
+
+.search-container >button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: -48px;
+    height: 100%;
+    margin-top: 5px;
+    color: rgb(67, 67, 67);
+}
+
+.search-container > input{
+    width: 30rem;
+    height: 1.7rem;
+    border-radius: 5px;
+    border: 1px solid rgb(164, 162, 162);
+    padding-left: 5px;
+}
+
+.sort-container{
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    gap: 1rem;
+    width: 55%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.sort-container >select{
+    background-color: rgba(241, 241, 241, 0.345);
+    padding: 7px;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 5px;
+    color: rgb(77, 77, 77);
+    width: 10rem;
+    
+}
+
+.sort-container > select >option{
+    border: none;
+    border-radius: 5px !important;
+}
+
+.sort-container > select:focus{
+    outline: none;
+}
+
+
+input:focus{
+    outline: none;
+}
+.sort-container .sort-option{
+    color: black !important;
+}
+.cards-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 10%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    height: 67vh;
+    overflow-y: auto;
+}
+
+.loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.card-container{
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px !important;
+    border: 1px solid rgb(206, 206, 206);
+    background-color: #f6f5f5d0;
+}
+
+
+.name_avatar-container{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    padding-left: 15px;
+    margin-top: 20px;
+    gap: 0.7rem;
+}
+
+.name_avatar-container >span{
+
+    font-size: 1.1rem;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(9, 105, 218);
+    margin-top: auto;
+}
+
+.name_avatar-container .img-container{
+    width: 22px;
+    height: 22px;
+    border : 1px solid rgb(185, 185, 185);
+    border-radius: 5px;
+}
+
+.name_avatar-container .img-container >img{
+width: 100%;
+height: 100%;
+border-radius: 5px;
+
+}
+
+.card-container .description-container{
+    padding-left: 15px;
+    overflow-x: hidden;
+}
+
+.card-container .description-container >h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(39, 39, 39, 0.87);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card-container .language_star-container{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 15px !important;
+    
+}
+
+.card-container .language_star-container >span{
+    
+    background-color: rgb(221, 244, 255);
+    color: rgb(9, 105, 218);
+    padding: 5px 10px;
+    justify-content: center;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card-container .language_star-container >.star-container{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: rgb(86, 86, 86) !important;
+}
+
+.card-container .language_star-container >.star-container >span{
+
+    font-size: 12px;
+    margin-top: 2px;
+
+}
+.cards-container .page-number-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #959595;
+}
+.cards-container .page-number-container >span{
+    cursor: pointer;
+}
+
+.cards-container .page-number-container >span:hover{
+    text-decoration: underline;
+}
+
+
+.active{
+    color: black;
+}
